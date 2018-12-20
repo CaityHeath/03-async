@@ -1,4 +1,4 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB 3: ASYNC
+![CF](http://i.imgur.com/7v5ASc8.png) LAB 3: Async
 =================================================
 
 ## Async Callbacks
