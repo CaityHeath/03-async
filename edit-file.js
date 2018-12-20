@@ -5,10 +5,11 @@ const util = require('util');
 
 let files = `./files/${process.argv[2]}`;
 
-console.log(files);
 
 fs.readFile(files, (err, data) =>{
   if(err){throw err;}
-  console.log(data.toString());
-});
 
+  fs.writeFile(files, Math.floor(Math.random() * 100), err=>{
+    if(err){throw err;}
+  });
+});
